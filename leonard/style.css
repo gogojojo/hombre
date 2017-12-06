@@ -1,0 +1,55 @@
+body{
+	margin: 0;
+	padding: 0;
+	position: relative;
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+	opacity: 0;
+}
+.img-holder{
+	height: 100vh;
+	width: 100vw;
+}
+.img-holder img{
+	width: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.character-icon{
+	position: absolute;
+	bottom: 30px;
+	left: 50%;
+	transform: translateX(-50%);
+	height: 60px;
+	z-index: 99;
+}
+.hombre-icon{
+	position: absolute;
+	top: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+	height: 60px;
+	z-index: 99;
+}
+.arrow{
+	cursor: pointer;
+}
+.forward{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 3vw;
+}
+.back{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 3vw;
+}
+#page0{
+	max-height: 75vh;
+	max-width: 75vw;
+}
